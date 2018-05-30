@@ -1,0 +1,12 @@
+table {border-collapse: collapse; width: 800px;}
+td, th {text-align: center;border: 1px solid #666;}
+input {width: 100%;}
+textarea {width: 100%;}
+.title-area, .contents-area, .button-area {width: 800px; margin-bottom: 5px;}
+.title-area:after, .contents-area:after, .button-area::after {display: table; content: ' '; clear: both;}
+.title-area > labe, .contents-area > label {padding: 2px;}
+.title-area > div, .contents-area > div {width: 95%;}
+.title-area > label, .title-area > div, .contents-area > label, .contents-area > div { float: left; text-align: center;}
+.button-area {text-align: center;}
+.toast {position: fixed; width: 50%; text-align: center; z-index: 99;}
+.toast > span {display: inline-block; padding: 0 10%; color: #fff; line-height: 48px; border-radius: 27px; background: #000; opacity: 0.7}
